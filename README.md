@@ -30,9 +30,9 @@ Options:
 
 ## Practical Use
 
-Use this tool in conbination with others for max results.
+Try this tool in conbination with others for max results.
 
-one linner using:
+one line example:
   - getJS (https://github.com/003random/getJS)
   - fget (https://github.com/bp0lr/fget)
   - gf (https://github.com/tomnomnom/gf)
