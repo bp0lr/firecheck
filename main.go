@@ -90,7 +90,7 @@ func main() {
 					continue
 				}				
 				
-				processRequest(&wg, u, client, outputFile)
+				processRequest(u, client, outputFile)
 
 			}
 			wg.Done()			
@@ -110,7 +110,7 @@ func main() {
 	wg.Wait()	
 }
 
-func processRequest(wg *sync.WaitGroup, u *url.URL, client *http.Client, outputFile *os.File) {
+func processRequest(u *url.URL, client *http.Client, outputFile *os.File) {
 
 	if verboseArg {
 		fmt.Printf("[+] Testing: %v\n", u.String())
